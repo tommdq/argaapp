@@ -1,0 +1,45 @@
+.homeContainer {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.box {
+  top: 10rem;
+  z-index: 1;
+}
+
+.heroText {
+  text-align: center;
+  font-weight: 500;
+}
+
+.heroImage {
+  max-width: 100%;
+  object-fit: cover;
+  flex: 1;
+  position: absolute;
+  bottom: 0;
+}
+
+.heaven {
+  max-width: 100%;
+  object-fit: fill;
+  flex: 1;
+  z-index: -1;
+  top: 0;
+  position: absolute;
+}
+
+.bgDescription {
+  object-fit: cover;
+}
+
+.description {
+  z-index: 10;
+}
+
+.descriptionText {
+  font-size: 24px;
+}

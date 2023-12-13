@@ -1,0 +1,9 @@
+.nav {
+  white-space: nowrap;
+  color: var(--mantine-color-white);
+  font-family: var(--mantine-font-family-headings);
+}
+
+.nav:hover {
+  background-color: transparent;
+}

@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "Prisma.prisma",
+    "ms-vscode.vscode-typescript-next",
+    "esbenp.prettier-vscode",
+    "SonarSource.sonarlint-vscode"
+  ],
+  "unwantedRecommendations": []
+}

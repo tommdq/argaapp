@@ -1,0 +1,16 @@
+.sticker {
+  position: absolute;
+  object-fit: contain;
+  top: 0;
+  right: 0;
+  transform: translate(-20%, -50%);
+  width: fit-content;
+}
+
+.bgDescription {
+  object-fit: cover;
+}
+
+.description {
+  z-index: 10;
+}

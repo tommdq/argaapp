@@ -1,0 +1,7 @@
+.bgDescription {
+  object-fit: cover;
+}
+
+.description {
+  z-index: 10;
+}

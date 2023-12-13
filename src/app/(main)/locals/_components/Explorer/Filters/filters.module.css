@@ -1,0 +1,8 @@
+.tabs {
+  flex-wrap: nowrap;
+}
+
+.container {
+  align-self: flex-start;
+  align-self: auto;
+}

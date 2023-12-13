@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+}
+
+.box {
+  border: thin solid #ffffff66;
+  border-radius: 1rem;
+  padding: 2rem 4rem;
+  background-color: #1c1c1c99;
+
+  .text {
+    flex: 1;
+  }
+}
+
+.bgDescription {
+  object-fit: cover;
+  z-index: -1;
+  height: 100%;
+}
+
+.description {
+  padding-bottom: 4rem;
+}
+
+.descriptionText {
+  font-size: 24px;
+}

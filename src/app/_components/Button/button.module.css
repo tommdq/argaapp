@@ -1,0 +1,15 @@
+.button {
+  padding: 1rem;
+}
+
+.primary {
+  background-color: var(--mantine-color-primary-0);
+  color: var(--mantine-color-white);
+}
+
+.secondary {
+  background-color: #ffffff33;
+  border: thin solid var(--mantine-color-white);
+  border-radius: 0;
+  font-family: var(--mantine-typo);
+}

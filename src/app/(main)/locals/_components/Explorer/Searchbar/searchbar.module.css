@@ -1,0 +1,18 @@
+.input {
+  padding: 1.5rem 3.5rem;
+  border-radius: 0.5rem;
+}
+
+.wrapper {
+  align-self: flex-start;
+  width: 20rem;
+}
+
+.wrapper [data-position='left'] {
+  margin-left: 1rem;
+}
+
+.root {
+  /* width: 100%; */
+  margin: 1rem;
+}

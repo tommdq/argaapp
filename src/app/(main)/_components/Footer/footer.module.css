@@ -1,0 +1,11 @@
+.container {
+  background-color: var(--mantine-color-white);
+  display: flex;
+  padding: 5rem 3rem;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footerTitle {
+  color: #f1f1f1;
+}

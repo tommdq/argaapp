@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.text {
+  font-family: var(--mantine-font-family-headings);
+  text-wrap: nowrap;
+}

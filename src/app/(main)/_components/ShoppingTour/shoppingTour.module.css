@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+}
+
+.box {
+  border: thin solid #f6f6f6e5;
+  border-radius: 1rem 1rem 1rem 0;
+  padding: 2rem 4rem;
+  background-color: #f6f6f6e5;
+  margin-left: 8rem;
+
+  .text {
+    flex: 1;
+  }
+}
+
+.bgDescription {
+  object-fit: cover;
+  z-index: -1;
+}
+
+.argaLogo {
+  object-fit: contain;
+  width: min-content;
+}
+
+.arrow {
+  width: 8rem;
+  height: 8rem;
+  top: 50%;
+  right: -10%;
+}
+
+.description {
+  /* padding-bottom: 4rem; */
+  position: relative;
+}
+
+.block {
+  flex: 1;
+  position: relative;
+}
+
+.icons {
+  object-fit: contain;
+}
+
+.descriptionText {
+  font-size: 24px;
+}
+
+.benefit {
+  flex: 1;
+}
+
+.blenefitsContainer {
+}

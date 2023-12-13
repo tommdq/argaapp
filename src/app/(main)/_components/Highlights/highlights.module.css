@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+}
+
+.box {
+  border: thin solid #f6f6f6e5;
+  background-color: #f6f6f6e5;
+  margin-left: 8rem;
+}
+.boxTitle {
+  text-wrap: nowrap;
+}
+
+.bgDescription {
+  object-fit: cover;
+  z-index: -1;
+}
+
+.arrow {
+  width: 8rem;
+  height: 8rem;
+}
+
+.description {
+  /* padding-bottom: 4rem; */
+  position: relative;
+}
+
+.block {
+  flex: 1;
+  position: relative;
+  left: 0;
+  width: 100%;
+  max-width: 40rem;
+}
+
+.icons {
+  object-fit: contain;
+}
+
+.descriptionText {
+  font-size: 24px;
+}

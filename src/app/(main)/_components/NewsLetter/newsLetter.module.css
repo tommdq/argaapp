@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 4rem 3rem;
+  color: var(--mantine-color-white);
+}
+
+/* Input */
+.root {
+  flex: 2;
+}
+
+.input {
+  border-bottom: 1px solid var(--mantine-color-white);
+  caret-color: var(--mantine-color-white);
+  color: var(--mantine-color-white);
+}
+
+.input:hover {
+  outline: none;
+}
+
+.description {
+  color: var(--mantine-color-white);
+  position: absolute;
+}
+
+/* Button  */
+.button {
+  background: transparent;
+  place-self: flex-end;
+  border: 1px solid var(--mantine-color-white);
+  font-family: var(--mantine-font-family-headings);
+  height: 2.5rem;
+  border-radius: 0.5rem;
+}

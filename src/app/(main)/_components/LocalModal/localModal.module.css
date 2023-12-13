@@ -1,0 +1,14 @@
+.productImage {
+  width: 10rem;
+  max-width: 10rem;
+  height: 10rem;
+  max-height: 10rem;
+  padding: 0.5rem;
+  object-fit: contain;
+  box-shadow: -1px 2px 25px -7px #615a5a;
+  border-radius: 1rem;
+}
+
+.box {
+  background: rgb(150, 150, 150);
+}

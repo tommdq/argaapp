@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.button {
+  font-family: var(--mantine-font-family-headings);
+  background-color: var(--mantine-color-primary-0);
+  flex: 1;
+}
+
+.links {
+  flex: 0;
+}
